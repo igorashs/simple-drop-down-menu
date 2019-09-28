@@ -2,13 +2,9 @@
 
 ## Installation
 
----
-
 `npm install simple-ddm`
 
 ## Usage example
-
----
 
 ```javascript
 import ddm from 'simple-ddm';
