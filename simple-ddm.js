@@ -18,6 +18,26 @@ const addToggle = function addToggle(
   });
 };
 
+const addFor = function addFor(
+  triggerClass,
+  nodeListClass,
+  className,
+  callBack = null
+) {
+  const trigger = document.querySelector(triggerClass);
+  const nodeList = document.querySelector(nodeListClass);
+
+  if (!trigger) {
+    throw new Error(`No Trigger Found with class ${triggerClass} `);
+  }
+
+  if (!nodeList) {
+    throw new Error(`No nodeList Found with class ${nodeListClass} `);
+  }
+
+  addToggle(trigger, nodeList, className, callBack);
+};
+
 const addForEach = function addForEach(
   triggersClass,
   nodesListClass,
@@ -43,5 +63,7 @@ const addForEach = function addForEach(
     addToggle(trigger, nodesList.shift(), className, callBack);
   });
 };
+
 exports.addToggle = addToggle;
 exports.addForEach = addForEach;
+exports.addFor = addFor;
