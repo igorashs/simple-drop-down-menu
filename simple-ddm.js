@@ -1,10 +1,11 @@
-exports.ddmAddToggle = function ddmAddToggle(
-  nodeEl,
+exports.addToggle = function addToggle(
+  nodeTrigger,
+  nodeList,
   className,
   callBack = null
 ) {
-  nodeEl.addEventListener('click', () => {
-    nodeEl.classList.toggle(className);
+  nodeTrigger.addEventListener('click', () => {
+    nodeList.classList.toggle(className);
     if (callBack) callBack();
   });
 };
