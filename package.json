@@ -1,0 +1,29 @@
+{
+  "name": "simple-drop-down-menu",
+  "version": "1.0.0",
+  "description": "Simple Drop Down Menu",
+  "main": "simple-ddm.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorashs/simple-drop-down-menu.git"
+  },
+  "keywords": [
+    "drop",
+    "down",
+    "menu",
+    "drop-down-menu"
+  ],
+  "author": "igorash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/igorashs/simple-drop-down-menu/issues"
+  },
+  "homepage": "https://github.com/igorashs/simple-drop-down-menu#readme",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
