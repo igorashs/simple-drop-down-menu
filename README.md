@@ -33,7 +33,7 @@ ddm.addToggle(option, listItems, 'show', () => {
 
 ```javascript
 // this will find nodes for you
-ddm.addFor('.option', '.links', 'show);
+ddm.addFor('.option', '.links', 'show');
 ```
 
 - addForEach
